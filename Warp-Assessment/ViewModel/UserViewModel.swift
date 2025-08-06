@@ -16,6 +16,7 @@ class UserViewModel: ObservableObject {
 
     func fetchUser(username: String) {
         
+        // implement strict guards to ensure we can handle issues
         guard !username.isEmpty else {
             self.errorMessage = "Please enter a username."
             return
@@ -56,6 +57,7 @@ class UserViewModel: ObservableObject {
                     do {
                         
                         let userDecoder = JSONDecoder()
+                        // handle snake_case properties from github as we use camelCase in swift
                         userDecoder.keyDecodingStrategy = .convertFromSnakeCase
                         
                         let fetchedUser = try userDecoder.decode(User.self, from: data)
