@@ -23,4 +23,5 @@ This repository contains an iOS Assessment project for Warp Development that enc
 4. URLSession is used, no 3rd-party frameworks.
 5. In my GitHub user project, I did not find it necessary to use Tuist because the project's scope was relatively simple, with only a few targets and dependencies. I preferred to manage configurations and dependencies directly within Xcode and leverage native tools like Swift Package Manager, which are straightforward and sufficient for smaller projects. Using Tuist is more advantageous in larger or more complex projects requiring extensive automation and project scaffolding, which was not needed in this case.
 6. One small XCTest added just for demonstration purposes.
+7. Added one default Action to github, yml requires more work once project grows to a more mature project and with more team members.
    
