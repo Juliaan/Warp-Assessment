@@ -1,3 +1,4 @@
 # Warp-Assessment
-This repository contains an iOS Assessment project for Warp Development
-https://github.com/user-attachments/assets/b565353d-1ca7-466a-b836-34aeff15399a
+This repository contains an iOS Assessment project for Warp Development that encapsulates the Github API to search for a user and display data on screen.
+
+![alt text](https://github.com/Juliaan/Warp-Assessment/blob/main/ScreenRecording.gif)
