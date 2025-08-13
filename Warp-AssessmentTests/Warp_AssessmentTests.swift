@@ -24,7 +24,7 @@ final class Warp_AssessmentTests: XCTestCase {
         //let user = fetch.fetchUser(username: enteredUserName)
         
         // Then (Assert)
-        XCTAssertNil(enteredUserName)
+        XCTAssertEqual("juliaan", enteredUserName, "as expected.")
         
     }
     
